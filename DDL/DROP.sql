@@ -1,0 +1,1 @@
+DROP TABLE college_students;

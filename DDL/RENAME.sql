@@ -1,0 +1,1 @@
+RENAME students TO college_students;
