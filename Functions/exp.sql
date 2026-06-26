@@ -1,0 +1,14 @@
+CREATE OR REPLACE FUNCTION fn_get_message
+RETURN VARCHAR2
+IS
+BEGIN
+    RETURN 'Welcome to PL/SQL';
+END;
+/
+
+
+-- 
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(fn_get_message);
+END;
+/
